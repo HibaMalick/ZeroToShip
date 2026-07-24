@@ -1,20 +1,18 @@
-# 🏆 ZeroToShip - Sports Club Management System
+# ZeroToShip - Sports Club Management System
 
 > A full-stack web application developed as part of the **ZeroToShip Program**, following professional software development practices, version control workflows, and phased project delivery.
 
 ---
 
-# 📖 Project Overview
+# Project Overview
 
 The **Sports Club Management System** is a web-based platform designed to simplify the management of campus sports clubs, student memberships, and team rosters.
 
 The system provides dedicated functionality for administrators and student members, allowing efficient management of sports clubs while maintaining secure access control and structured relational data.
 
-This project is being developed incrementally across multiple phases, with each phase focusing on a specific aspect of software engineering including planning, database design, backend development, frontend implementation, testing, deployment, and final integration.
-
 ---
 
-# 🎯 Objectives
+# Objectives
 
 The primary objectives of this project are:
 
@@ -28,9 +26,9 @@ The primary objectives of this project are:
 
 ---
 
-# 👥 User Roles
+# User Roles
 
-### 👨‍💼 Administrator
+###  Administrator
 
 The administrator can:
 
@@ -43,7 +41,7 @@ The administrator can:
 
 ---
 
-### 🎓 Student Member
+### Student Member
 
 A student member can:
 
@@ -56,7 +54,7 @@ A student member can:
 
 ---
 
-# 🛠️ Technology Stack
+# Technology Stack
 
 ## Frontend
 
@@ -77,16 +75,9 @@ A student member can:
 - Git
 - GitHub
 
-## Development Tools
-
-- Visual Studio Code
-- MySQL Workbench
-- Postman
-- Git Bash
-
 ---
 
-# 📂 Repository Structure
+# Repository Structure
 
 ```text
 ZeroToShip
@@ -108,45 +99,7 @@ ZeroToShip
 
 ---
 
-# 🚀 Development Phases
-
-## ✅ Phase 1
-
-Project setup, relational database design, schema creation, and manual database verification.
-
----
-
-## ⏳ Phase 2
-
-Backend architecture, REST API development, authentication, and business logic.
-
----
-
-## ⏳ Phase 3
-
-Frontend implementation using React and responsive user interface development.
-
----
-
-## ⏳ Phase 4
-
-System integration, API connectivity, testing, debugging, and optimization.
-
----
-
-## ⏳ Phase 5
-
-Deployment, final improvements, documentation, and production readiness.
-
----
-
-## 🎯 Final Integration
-
-Complete integrated application with all deliverables, documentation, screenshots, and deployment resources.
-
----
-
-# 🗄️ Database Design
+# Database Design
 
 The system consists of three primary relational entities:
 
@@ -158,7 +111,7 @@ Relationships between these entities are maintained using foreign key constraint
 
 ---
 
-# 📌 Project Features
+# Project Features
 
 - User Authentication
 - Role-Based Access Control
@@ -173,7 +126,7 @@ Relationships between these entities are maintained using foreign key constraint
 
 ---
 
-# 📸 Project Outputs
+# Project Outputs
 
 Each phase contains an **Output** directory including:
 
@@ -186,7 +139,7 @@ Each phase contains an **Output** directory including:
 
 ---
 
-# 📚 Documentation
+# Documentation
 
 Every project phase includes its own documentation explaining:
 
@@ -199,7 +152,7 @@ Every project phase includes its own documentation explaining:
 
 ---
 
-# 🌱 Git Workflow
+# Git Workflow
 
 This repository follows a professional Git workflow:
 
@@ -210,13 +163,13 @@ This repository follows a professional Git workflow:
 
 ---
 
-# 📄 License
+# License
 
 This repository is developed for educational purposes as part of the **ZeroToShip Program**.
 
 ---
 
-# 👩‍💻 Author
+#  Author
 
 **Hiba Malick**
 
@@ -224,8 +177,4 @@ Bachelor of Software Engineering
 
 NED University of Engineering & Technology
 
-Karachi, Pakistan
-
 ---
-
-> *"Building software is not just about writing code—it's about solving problems through thoughtful design, clean architecture, and continuous improvement."*

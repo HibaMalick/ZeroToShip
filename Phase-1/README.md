@@ -1,12 +1,12 @@
 # Phase 1 - Database Design & Project Setup
 
-## 📌 Overview
+## Overview
 
 Phase 1 focuses on establishing the foundation of the Sports Club Management System by designing the relational database structure, defining entity relationships, applying database constraints, and manually verifying database integrity.
 
 ---
 
-# 🎯 Objectives
+# Objectives
 
 The main objectives completed in this phase are:
 
@@ -20,7 +20,7 @@ The main objectives completed in this phase are:
 
 ---
 
-# 🛠️ Technologies Used
+# Technologies Used
 
 ## Database
 
@@ -42,7 +42,7 @@ The main objectives completed in this phase are:
 
 ---
 
-# 🗄️ Database Design
+# Database Design
 
 The database consists of three main entities:
 
@@ -92,7 +92,7 @@ Columns:
 
 ---
 
-# 🔗 Database Relationships
+# Database Relationships
 
 The system implements relational relationships:
 
@@ -108,7 +108,7 @@ The Rosters table acts as a bridge between members and clubs.
 
 ---
 
-# 🔐 Constraints Implemented
+# Constraints Implemented
 
 ## Primary Keys
 
@@ -140,7 +140,7 @@ This ensures related roster records are automatically maintained when parent rec
 
 ---
 
-# 🧪 Manual Testing Performed
+# Manual Testing Performed
 
 Database testing was performed using MySQL Workbench.
 
@@ -155,7 +155,7 @@ Testing included:
 
 ---
 
-# 📂 Phase 1 Structure
+# Phase 1 Structure
 
 ```
 Phase-1
@@ -173,7 +173,7 @@ Phase-1
 
 ---
 
-# 📸 Output Evidence
+# Output Evidence
 
 The Output folder contains:
 
@@ -185,7 +185,7 @@ The Output folder contains:
 
 ---
 
-# ✅ Phase 1 Completion
+# Phase 1 Completion
 
 Phase 1 successfully established the database foundation of the Sports Club Management System.
 
