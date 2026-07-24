@@ -94,10 +94,6 @@ ZeroToShip
 ├── README.md
 │
 ├── Phase-1
-│   ├── Backend
-│   ├── Database
-│   ├── Output
-│   └── README.md
 │
 ├── Phase-2
 │
