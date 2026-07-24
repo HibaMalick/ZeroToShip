@@ -4,8 +4,6 @@
 
 Phase 1 focuses on establishing the foundation of the Sports Club Management System by designing the relational database structure, defining entity relationships, applying database constraints, and manually verifying database integrity.
 
-The objective of this phase was to create isolated database tables and validate structural relationships before implementing backend logic or frontend views.
-
 ---
 
 # 🎯 Objectives
@@ -26,7 +24,7 @@ The main objectives completed in this phase are:
 
 ## Database
 
-- MySQL 8.0
+- MySQL 
 
 ## Database Management Tool
 
@@ -166,7 +164,7 @@ Phase-1
 │   ├── schema.sql
 │   ├── sample_data.sql
 │   ├── queries.sql
-│   └── ER_Diagram.drawio
+│   └── ER_Diagram.png
 │
 ├── Output
 │
@@ -184,19 +182,6 @@ The Output folder contains:
 - Foreign key validation screenshots
 - Cascade delete testing screenshots
 - ER Diagram
-
----
-
-# ⚠️ Technology Approach
-
-The provided phase instructions included Django examples; however, the program announcement allowed participants to select their preferred technology stack.
-
-Therefore, this project implements the required relational database design using:
-
-- MySQL database
-- SQL schema scripts
-
-Backend development will be implemented in upcoming phases using Node.js and Express.js.
 
 ---
 
