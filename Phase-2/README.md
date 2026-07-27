@@ -25,31 +25,6 @@ The main objectives completed in this phase are:
 
 ---
 
-## Technologies Used
-
-### Backend
-- Node.js
-- Express.js
-
-### Database
-- MySQL
-
-### Authentication & Security
-- bcrypt
-- jsonwebtoken
-
-### Environment Configuration
-- dotenv
-
-### Development Tools
-- Visual Studio Code
-- Postman
-- Nodemon
-- MySQL Workbench
-- Git & GitHub
-
----
-
 ## Project Structure
 
 ```text
