@@ -10,8 +10,10 @@ const getAllClubs = async () => {
 };
 
 // Get club by ID
-const getClubById = async (clubId) => {
-    const [rows] = await db.query(
+const getClubById = async (clubId, connection = null) => {
+    const database = connection || db;
+
+    const [rows] = await database.query(
         "SELECT * FROM SportsClubs WHERE club_id = ?",
         [clubId]
     );
@@ -20,8 +22,10 @@ const getClubById = async (clubId) => {
 };
 
 // Count members currently enrolled in a club
-const getClubMemberCount = async (clubId) => {
-    const [rows] = await db.query(
+const getClubMemberCount = async (clubId, connection = null) => {
+    const database = connection || db;
+
+    const [rows] = await database.query(
         "SELECT COUNT(*) AS totalMembers FROM Rosters WHERE club_id = ?",
         [clubId]
     );
@@ -30,8 +34,10 @@ const getClubMemberCount = async (clubId) => {
 };
 
 // Check whether a member is already enrolled
-const checkExistingEnrollment = async (memberId, clubId) => {
-    const [rows] = await db.query(
+const checkExistingEnrollment = async (memberId, clubId, connection = null) => {
+    const database = connection || db;
+
+    const [rows] = await database.query(
         "SELECT * FROM Rosters WHERE member_id = ? AND club_id = ?",
         [memberId, clubId]
     );
@@ -40,16 +46,20 @@ const checkExistingEnrollment = async (memberId, clubId) => {
 };
 
 // Enroll member
-const enrollMember = async (memberId, clubId) => {
-    await db.query(
+const enrollMember = async (memberId, clubId, connection = null) => {
+    const database = connection || db;
+
+    await database.query(
         "INSERT INTO Rosters (member_id, club_id) VALUES (?, ?)",
         [memberId, clubId]
     );
 };
 
 // Leave club
-const leaveClub = async (memberId, clubId) => {
-    await db.query(
+const leaveClub = async (memberId, clubId, connection = null) => {
+    const database = connection || db;
+
+    await database.query(
         "DELETE FROM Rosters WHERE member_id = ? AND club_id = ?",
         [memberId, clubId]
     );
