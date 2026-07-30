@@ -2,9 +2,11 @@ const express = require("express");
 const cors = require("cors");
 
 const authRoutes = require("./routes/authRoutes");
+const adminRoutes = require("./routes/adminRoutes");
+const clubRoutes = require("./routes/clubRoutes");
 
 const app = express();
-const adminRoutes = require("./routes/adminRoutes");
+
 // Middleware
 app.use(cors());
 app.use(express.json());
@@ -16,10 +18,9 @@ app.get("/", (req, res) => {
     });
 });
 
-// Authentication Routes
-app.use("/api/auth", authRoutes);
-
-module.exports = app;
-
+// Routes
 app.use("/api/auth", authRoutes);
 app.use("/api/admin", adminRoutes);
+app.use("/api/clubs", clubRoutes);
+
+module.exports = app;
