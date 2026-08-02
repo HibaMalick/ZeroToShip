@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Portal | Sports Club Management</title>
+
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         STUDENT PORTAL
+    ========================== -->
+
+    <div class="app-layout">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <div class="brand">
+                <div class="brand-icon">SC</div>
+
+                <div>
+                    <h2>SportsClub</h2>
+                    <span>Member Portal</span>
+                </div>
+            </div>
+
+            <nav class="sidebar-nav">
+
+                <a href="#" class="nav-item active">
+                    <span class="nav-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 11.5 12 4l9 7.5"/>
+                            <path d="M5.5 10v9a1 1 0 0 0 1 1h4v-6h3v6h4a1 1 0 0 0 1-1v-9"/>
+                        </svg>
+                    </span>
+                    Dashboard
+                </a>
+
+                <a href="#" class="nav-item">
+                    <span class="nav-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 12h4l2-7 4 14 2-7h6"/>
+                        </svg>
+                    </span>
+                    My Clubs
+                </a>
+
+                <a href="#" class="nav-item">
+                    <span class="nav-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3.5" y="5" width="17" height="16" rx="2"/>
+                            <path d="M8 3v4M16 3v4M3.5 10h17"/>
+                        </svg>
+                    </span>
+                    Schedule
+                </a>
+
+                <a href="#" class="nav-item">
+                    <span class="nav-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="8" r="3.5"/>
+                            <path d="M5 20a7 7 0 0 1 14 0"/>
+                        </svg>
+                    </span>
+                    Profile
+                </a>
+
+            </nav>
+
+            <div class="sidebar-bottom">
+
+                <div class="help-card">
+                    <span class="help-icon">?</span>
+
+                    <div>
+                        <strong>Need Help?</strong>
+                        <p>Contact the sports office.</p>
+                    </div>
+                </div>
+
+                <a href="#" class="nav-item logout">
+                    <span class="nav-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9 4H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h3"/>
+                            <path d="M15 16l5-4-5-4"/>
+                            <path d="M20 12H9"/>
+                        </svg>
+                    </span>
+                    Sign Out
+                </a>
+
+            </div>
+
+        </aside>
+
+
+        <!-- Main Content -->
+        <main class="main-content">
+
+            <!-- Top Header -->
+            <header class="topbar">
+
+                <div class="mobile-brand">
+                    <div class="brand-icon">SC</div>
+                    <strong>SportsClub</strong>
+                </div>
+
+                <div class="topbar-actions">
+
+                    <button class="icon-button" aria-label="Notifications">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M6 9a6 6 0 1 1 12 0c0 3.5 1 5 1.5 6H4.5C5 14 6 12.5 6 9Z"/>
+                            <path d="M10 19a2 2 0 0 0 4 0"/>
+                        </svg>
+                        <span class="notification-dot"></span>
+                    </button>
+
+                    <div class="user-profile">
+
+                        <div class="avatar">
+                            AK
+                        </div>
+
+                        <div class="user-info">
+                            <strong>Ali Khan</strong>
+                            <span>Student Member</span>
+                        </div>
+
+                        <span class="profile-arrow">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M6 9l6 6 6-6"/>
+                            </svg>
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </header>
+
+
+            <!-- Dashboard Content -->
+            <section class="dashboard-content">
+
+                <!-- Welcome Section -->
+                <div class="welcome-section">
+
+                    <div>
+                        <span class="eyebrow">STUDENT DASHBOARD</span>
+
+                        <h1>
+                            Welcome back, Ali! 👋
+                        </h1>
+
+                        <p>
+                            Discover your favorite sports, explore training schedules,
+                            and reserve your place in a club.
+                        </p>
+                    </div>
+
+                    <div class="date-card">
+                        <span>Today</span>
+                        <strong>Monday, 02 August 2026</strong>
+                    </div>
+
+                </div>
+
+
+                <!-- Statistics -->
+                <div class="stats-grid">
+
+                    <div class="stat-card">
+
+                        <div class="stat-icon blue">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3.5" y="3.5" width="7" height="7" rx="1.5"/>
+                                <rect x="13.5" y="3.5" width="7" height="7" rx="1.5"/>
+                                <rect x="3.5" y="13.5" width="7" height="7" rx="1.5"/>
+                                <rect x="13.5" y="13.5" width="7" height="7" rx="1.5"/>
+                            </svg>
+                        </div>
+
+                        <div>
+                            <span>Available Clubs</span>
+                            <strong>08</strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="stat-card">
+
+                        <div class="stat-icon green">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="8.5"/>
+                                <path d="M8.5 12.5l2.3 2.3 4.7-5.1"/>
+                            </svg>
+                        </div>
+
+                        <div>
+                            <span>My Active Clubs</span>
+                            <strong>02</strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="stat-card">
+
+                        <div class="stat-icon orange">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="8.5"/>
+                                <path d="M12 7.5V12l3 2"/>
+                            </svg>
+                        </div>
+
+                        <div>
+                            <span>Upcoming Sessions</span>
+                            <strong>04</strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="stat-card">
+
+                        <div class="stat-icon purple">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 3.5l2.6 5.4 5.9.7-4.3 4.1 1.1 5.9L12 16.8l-5.3 2.8 1.1-5.9-4.3-4.1 5.9-.7L12 3.5Z"/>
+                            </svg>
+                        </div>
+
+                        <div>
+                            <span>Attendance Rate</span>
+                            <strong>92%</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Section Header -->
+                <div class="section-heading">
+
+                    <div>
+                        <h2>Explore Sports</h2>
+                        <p>Choose a club that matches your interests.</p>
+                    </div>
+
+                    <button class="text-button">
+                        View all →
+                    </button>
+
+                </div>
+
+
+                <!-- Sport Cards -->
+                <div id="sports-container" class="sports-grid">
+                    <!-- Sport cards will be generated by student.js -->
+                </div>
+
+
+                <!-- Lower Dashboard Grid -->
+                <div class="dashboard-two-column">
+
+
+                    <!-- Registration -->
+                    <section class="panel registration-panel">
+
+                        <div class="panel-header">
+
+                            <div>
+                                <span class="panel-label">QUICK ENROLLMENT</span>
+                                <h2>Register for a Sport</h2>
+                            </div>
+
+                            <div class="panel-icon">
+                                +
+                            </div>
+
+                        </div>
+
+                        <p class="panel-description">
+                            Select your preferred sport and training window
+                            to request membership.
+                        </p>
+
+
+                        <form id="registration-form">
+
+                            <div class="form-group">
+
+                                <label for="sport-select">
+                                    Select Sport
+                                </label>
+
+                                <select id="sport-select" required>
+                                    <option value="">
+                                        Choose a sport
+                                    </option>
+                                </select>
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="time-select">
+                                    Preferred Training Window
+                                </label>
+
+                                <select id="time-select" required>
+                                    <option value="">
+                                        Choose a time
+                                    </option>
+                                </select>
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="registration-note">
+                                    Note <span>(Optional)</span>
+                                </label>
+
+                                <textarea
+                                    id="registration-note"
+                                    rows="3"
+                                    placeholder="Tell us anything we should know..."
+                                ></textarea>
+
+                            </div>
+
+
+                            <button
+                                type="submit"
+                                class="primary-button full-width"
+                            >
+                                Submit Registration
+                                <span>→</span>
+                            </button>
+
+                        </form>
+
+                        <div
+                            id="registration-message"
+                            class="registration-message"
+                        ></div>
+
+                    </section>
+
+
+                    <!-- Schedule -->
+                    <section class="panel schedule-panel">
+
+                        <div class="panel-header">
+
+                            <div>
+                                <span class="panel-label">UPCOMING</span>
+                                <h2>Training Schedule</h2>
+                            </div>
+
+                            <button class="icon-button small" aria-label="More options">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <circle cx="12" cy="5" r="1.6"/>
+                                    <circle cx="12" cy="12" r="1.6"/>
+                                    <circle cx="12" cy="19" r="1.6"/>
+                                </svg>
+                            </button>
+
+                        </div>
+
+
+                        <div id="schedule-container" class="schedule-list">
+                            <!-- Schedule items generated by student.js -->
+                        </div>
+
+                    </section>
+
+                </div>
+
+
+                <!-- Current Membership -->
+                <section class="panel membership-panel">
+
+                    <div class="panel-header">
+
+                        <div>
+                            <span class="panel-label">YOUR ACTIVITIES</span>
+                            <h2>My Active Memberships</h2>
+                        </div>
+
+                        <button class="text-button">
+                            Manage memberships →
+                        </button>
+
+                    </div>
+
+
+                    <div id="membership-container" class="membership-list">
+                        <!-- Membership data generated by student.js -->
+                    </div>
+
+                </section>
+
+            </section>
+
+        </main>
+
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="../static/js/student.js"></script>
+
+</body>
+</html>
